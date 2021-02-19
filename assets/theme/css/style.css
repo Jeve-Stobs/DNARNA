@@ -50,7 +50,7 @@
   font-size: 0.9687rem;
   line-height: 1.5;
   border-radius: 3px;
-  font-family: "Lora";
+    font-family: Montserrat;;
   font-style: italic;
   font-weight: 400;
   letter-spacing: 0px; }
@@ -456,7 +456,7 @@ p.lead,
   font-size: 1.07rem;
   font-weight: 300; }
   .lead a {
-    font-family: "Lora";
+      font-family: Montserrat;;
     font-style: italic;
     font-weight: 400; }
     .lead a, .lead a:hover {
@@ -483,7 +483,7 @@ p.lead,
     font-weight: 600;
     margin-bottom: 1.605rem; }
   .lead blockquote {
-    font-family: "Lora";
+      font-family: Montserrat;;
     font-style: italic;
     padding: 10px 0 10px 20px;
     border-left: 4px solid #c39f76;
@@ -683,7 +683,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   font-style: italic;
   font-weight: 400;
   font-size: 17px;
-  font-family: "Lora";
+    font-family: Montserrat;;
   line-height: 26px;
   color: #8c8c8c;
   margin-bottom: 30px; }
@@ -698,7 +698,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   margin-bottom: 1.6875rem; }
 .mbr-section-hero .mbr-section-lead {
   color: #fff;
-  font-family: Lora;
+  font-family: Montserrat;
   font-size: 1.5rem;
   font-style: italic;
   margin-top: -1em; }
@@ -1273,7 +1273,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   font-style: italic;
   font-weight: 400;
   font-size: 0.875rem;
-  font-family: "Lora";
+    font-family: Montserrat;;
   color: #5b5b5b;
   margin-top: -1rem;
   line-height: 1.7857;
@@ -1341,7 +1341,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     margin-bottom: 0; }
   .mbr-plan-subtitle, .mbr-plan-price-desc {
     color: #a0a0a0;
-    font-family: "Lora";
+      font-family: Montserrat;;
     font-size: 0.875rem;
     font-style: italic;
     font-weight: 400;
@@ -1448,7 +1448,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   .mbr-testimonial .card-block {
     background: #f4f4f4;
     color: #565656;
-    font-family: "Lora";
+      font-family: Montserrat;;
     font-size: 1.125rem;
     font-style: italic;
     font-weight: 400;
@@ -1498,7 +1498,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   padding-top: 1.25rem; }
 .mbr-author-desc {
   color: #a7a7a7;
-  font-family: "Lora";
+    font-family: Montserrat;;
   font-size: 0.875rem;
   font-style: italic;
   font-weight: 400;
@@ -1656,7 +1656,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
   color: #bcbcbc;
   display: block;
-  font-family: "Raleway";
+  font-family: Montserrat;
   font-size: 0.875rem;
   line-height: 1.8;
   overflow: hidden;
@@ -1740,7 +1740,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     width: 3.5rem; }
   .mbr-company .list-group-text {
     color: #fff;
-    font-family: "Raleway";
+  font-family: Montserrat;
     font-size: 0.875rem;
     line-height: 1.6;
     position: static;
@@ -1840,7 +1840,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     .mbr-arrow-icon::before {
       content: "\203a";
       display: inline-block;
-      font-family: serif;
+  font-family: Montserrat;
       font-size: 32px;
       line-height: 1;
       font-style: normal;
@@ -1887,7 +1887,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     .mbr-arrow-up-icon::before {
       content: "\203a";
       display: inline-block;
-      font-family: serif;
+  font-family: Montserrat;
       font-size: 32px;
       line-height: 1;
       font-style: normal;
@@ -1916,7 +1916,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   vertical-align: top; }
 
 .form-asterisk {
-  font-family: initial;
+  font-family: Montserrat;
   position: absolute;
   top: -2px;
   font-weight: normal; }
