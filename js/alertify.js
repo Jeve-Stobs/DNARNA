@@ -1,8 +1,4 @@
-/**
- * alertifyjs 1.6.0 http://alertifyjs.com
- * AlertifyJS is a javascript framework for developing pretty browser dialogs and notifications.
- * Copyright 2015 Mohammad Younes <Mohammad@alertifyjs.com> (http://alertifyjs.com) 
- * Licensed under MIT <http://opensource.org/licenses/mit-license.php>*/
+
 ( function ( window ) {
     'use strict';
     
