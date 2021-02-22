@@ -1,7 +1,4 @@
-/*!
- * Default theme v2 (https://mobirise.com/)
- * Copyright 2016 Mobirise
- */
+
 .container {
   position: relative; }
 
@@ -1613,10 +1610,10 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     .mbr-footer p a:hover, .mbr-footer ul a:hover {
       text-decoration: none; }
   .mbr-footer .btn-black {
-    background-color: #242424;
+    background-color: #E2C2FF;
     border-color: #242424; }
     .mbr-footer .btn-black.disabled, .mbr-footer .btn-black[disabled], .mbr-footer .btn-black:hover {
-      background-color: #1a1a1a !important;
+      background-color: #E2C2FF !important;
       border-color: #1a1a1a !important; }
   .mbr-footer .mbr-map {
     height: 18.75rem; }

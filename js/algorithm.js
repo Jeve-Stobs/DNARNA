@@ -1,11 +1,5 @@
-var debug=true; //if(debug==true){console.log();}
-/* 
-* DNA to mRNA to Protein Converter Function.
-* SYNTAX: converter(Strand,StrandType);
-* Strand is a strand only consisting of A's G's C's and T's or U's.
-* 
-* 
-*/
+var debug=false; //if(debug==true){console.log();}
+
 function converter(input, StrandType){
     
     //checks to see if TMjsUtilities is the right version.

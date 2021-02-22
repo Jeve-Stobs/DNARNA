@@ -8,11 +8,11 @@ body,
 input,
 textarea,
 .mbr-company .list-group-text {
-  font-family: 'Raleway', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 .mbr-footer-content li,
 .mbr-footer .mbr-contacts li {
-  font-family: 'Raleway', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 .btn,
 .alert,
@@ -36,7 +36,7 @@ h6,
 .mbr-gallery-title,
 .mbr-map [data-state-details],
 .mbr-price {
-  font-family: 'Montserrat', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 .mbr-footer-content h1,
 .mbr-footer .mbr-contacts h1,
@@ -50,7 +50,7 @@ h6,
 .mbr-footer .mbr-contacts p strong,
 .mbr-footer-content strong,
 .mbr-footer .mbr-contacts strong {
-  font-family: 'Montserrat', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 .btn-sm,
 .lead a,
@@ -59,20 +59,20 @@ h6,
 .mbr-section-hero .mbr-section-lead,
 .mbr-cards .card-subtitle,
 .mbr-testimonial .card-block {
-  font-family: 'Lora', serif;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 .mbr-author-name {
-  font-family: 'Montserrat', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 .mbr-author-desc {
-  font-family: 'Lora', serif;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 .mbr-plan-title {
-  font-family: 'Montserrat', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 .mbr-plan-subtitle,
 .mbr-plan-price-desc {
-  font-family: 'Lora', serif;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 .bg-primary {
   background-color: #0066ff !important;
