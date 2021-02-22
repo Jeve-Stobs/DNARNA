@@ -1,168 +1,149 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="shortcut icon" href="assets/images/icon-128x128-25.png" type="image/x-icon" />
-        <meta name="description" content="" />
-        <title>mDRNA</title>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;subset=latin" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" />
-        <link rel="stylesheet" href="assets/bootstrap-material-design-font/css/material.css" />
-        <link rel="stylesheet" href="assets/tether/tether.min.css" />
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="assets/animate.css/animate.min.css" />
-        <link rel="stylesheet" href="assets/dropdown/css/style.css" />
-        <link rel="stylesheet" href="assets/socicon/css/socicon.min.css" />
-        <link rel="stylesheet" href="assets/theme/css/style.css" \/>
-        <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css" />
-    </head>
-    <!--CODE ADDITION-->
-    <div id="loading">
-        <div id="loadingdiv">
-            <text id="loadingtxt">Loading...</text><text id="slowclosetxt" style="color: red; display: none; width: 50%;">This program's loading screen may not be responding!</text>
-            <sinput type="submit" value="Close" id="closeloading" style="display: none;" class="btn btn-primary" onclick='loadingscreen("hide");'>Close</sinput>
-        </div>
-    </div>
-    <!--CODE ADDITION END-->
-    <body>
-        <section class="mbr-section mbr-parallax-background mbr-after-navbar" id="content5-18" style="background-color: #247BA0; padding-top: 120px; padding-bottom: 120px;">
-            <div class="mbr-overlay" style="opacity: 0.5; background-color: #463F1A;"></div>
 
-            <div class="container">
-                <h3 class="mbr-section-title display-2">DNA to mRNA & Amino Acids Converter</h3>
-                <div class="lead"></div>
-            </div>
-        </section>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="shortcut icon" href="assets/images/icon-128x128-25.png" type="image/x-icon" />
+	<meta name="description" content="" />
+	<title>DNA to mRNA to Amino Acids Converter</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;subset=latin" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" />
+	<link rel="stylesheet" href="assets/bootstrap-material-design-font/css/material.css" />
+	<link rel="stylesheet" href="assets/tether/tether.min.css" />
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/animate.css/animate.min.css" />
+	<link rel="stylesheet" href="assets/dropdown/css/style.css" />
+	<link rel="stylesheet" href="assets/socicon/css/socicon.min.css" />
+	<link rel="stylesheet" href="assets/theme/css/style.css" \/>
+	<link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css" /> </head>
+<!--CODE ADDITION-->
+<div id="loading">
+	<div id="loadingdiv">
+		<text id="loadingtxt">Loading...</text>
+		<text id="slowclosetxt" style="color: red; display: none; width: 50%;">This program's loading screen may not be responding!</text>
+		<sinput type="submit" value="Close" id="closeloading" style="display: none;" class="btn btn-primary" onclick='loadingscreen("hide");'>Close</sinput>
+	</div>
+</div>
+<!--CODE ADDITION END-->
 
-        <section class="mbr-section mbr-section__container article" id="header3-1n" style="#571F4E; padding-top: 20px; padding-bottom: 20px;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <h3 class="mbr-section-title display-2">Input</h3>
-                        <small class="mbr-section-subtitle"></small>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="mbr-section article mbr-section__container" id="content1-1m" style="background-color: #571F4E; padding-top: 20px; padding-bottom: 20px;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 lead">
-                        <!--<p>radio DNA <strong>OR </strong>radio mRNA</p>-->
-                      
-                        <!--CODE ADDITION-->
-                        <link rel="stylesheet" href="css/style.css" />
-                        <link rel="stylesheet" href="css/button-checkbox_style.css" />
-                        <script src="js/main.js"></script>
-                        <script src="js/algorithm.js"></script>
-                        <script src="js/tmutilities.js"></script>
-                        <script src="js/alertify.js"></script>
-                        <script src="js/jquery.js"></script>
-                
-                        <!--CODE ADDITION END-->
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="mbr-section article mbr-section__container" id="content1-1l" style="background-color: #571F4E; padding-top: 20px; padding-bottom: 20px;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 lead">
-                        <!--<p>input strand text field</p>-->
-
-                        <!--CODE ADDITION-->
-                        <textarea
-                            name="input"
-                            id="input"
-                            style="margin-top: 5px; margin-bottom: 5px; text-transform: uppercase;"
-                            placeholder="Input Strand"
-                            onkeydown="inputcheckdown(event, this, 'convert', true);"
-                            onkeyup="inputcheckup(event, this, true);"
-                            data-resizable="true"
-                        ></textarea>
-
-        
-
-                        
-                        <script type="text/javascript">
-                            $(function () {
-                                $(".Output").scroll(function () {
-                                    $(".Output").scrollLeft($(this).scrollLeft());
-                                });
-                            });
-                        </script>
-
-                        <!--CODE ADDITION END-->
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="mbr-section mbr-section__container" id="buttons1-1j" style="background-color: #571F4E; padding-top: 0px; padding-bottom: 0px;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <!--CODE CHANGE-->
-                        <div class="text-xs-center"><a class="btn btn-primary" id="convert" onclick="nac();">Convert</a> <a class="btn btn-warning-outline btn-warning" onclick="clearall();">Clear</a></div>
-                        <!--CODE CHANGE END-->
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="mbr-section mbr-section__container article" id="header3-1i" style="background-color: #571F4E; padding-top: 20px; padding-bottom: 20px;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <h3 class="mbr-section-title display-2">
+<body>
+	<section class="mbr-section mbr-parallax-background mbr-after-navbar" id="content5-18" style="background-color: #247BA0; padding-top: 120px; padding-bottom: 120px;">
+		<div class="mbr-overlay" style="opacity: 0.5; background-color: #463F1A"></div>
+		<div class="container">
+			<h3 class="mbr-section-title display-2">DNA to mRNA to Amino Acids Converter</h3>
+			<div class="lead">
+				<p>Translates DNA or mRNA to the other and a Protein strands (amino acids).</p>
+			</div>
+		</div>
+	</section>
+	<section class="mbr-section mbr-section__container article" id="header3-1n" style="background-color: #571F4E; padding-top: 20px; padding-bottom: 20px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h3 class="mbr-section-title display-2">Input</h3> <small class="mbr-section-subtitle"></small> </div>
+			</div>
+		</div>
+	</section>
+	<section class="mbr-section article mbr-section__container" id="content1-1m" style="background-color: #571F4E; padding-top: 20px; padding-bottom: 20px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 lead">
+					<!--<p>radio DNA <strong>OR </strong>radio mRNA</p>-->
+					<!--CODE ADDITION-->
+					<link rel="stylesheet" href="css/style.css" />
+					<link rel="stylesheet" href="css/button-checkbox_style.css" />
+					<script src="js/main.js"></script>
+					<script src="js/algorithm.js"></script>
+					<script src="js/tmutilities.js"></script>
+					<script src="js/alertify.js"></script>
+					<script src="js/jquery.js"></script>
+					<center>
+						<form id="strand" class="ng-pristine ng-valid">
+							<input id="DNA" type="radio" name="StrandType" value="DNA" onclick="inputStrandConv('DNA')" checked="" />
+							<label for="DNA"><font class="coa" color="gold">DNA</font></label><font class="coa" color="#571F4E"> OR </font>&nbsp;
+							<input id="mRNA" type="radio" name="StrandType" value="mRNA" onclick="inputStrandConv('mRNA')" />
+							<label for="mRNA"><font class="coa" color="gold">mRNA</font></label>
+						</form>
+					</center>
+					<!--CODE ADDITION END-->
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="mbr-section article mbr-section__container" id="content1-1l" style="background-color: #571F4E; padding-top: 20px; padding-bottom: 20px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 lead">
+					<!--<p>input strand text field</p>-->
+					<!--CODE ADDITION-->
+					<textarea name="input" id="input" style="margin-top: 5px; margin-bottom: 5px; text-transform: uppercase;" placeholder="Input Strand" onkeydown="inputcheckdown(event, this, 'convert', true);" onkeyup="inputcheckup(event, this, true);" data-resizable="true"></textarea>
+					
+					
+						<hr style="height: 1px; visibility: hidden;" /> </div>
+					<script type="text/javascript">
+					$(function() {
+						$(".Output").scroll(function() {
+							$(".Output").scrollLeft($(this).scrollLeft());
+						});
+					});
+					</script>
+					<!--CODE ADDITION END-->
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="mbr-section mbr-section__container" id="buttons1-1j" style="background-color: #571F4E; padding-top: 0px; padding-bottom: 0px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<!--CODE CHANGE-->
+					<div class="text-xs-center"><a class="btn btn-primary" id="convert" onclick="nac();">Convert</a> <a class="btn btn-warning-outline btn-warning" onclick="clearall();">Clear</a></div>
+					<!--CODE CHANGE END-->
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="mbr-section mbr-section__container article" id="header3-1i" style="background-color: #571F4E; padding-top: 20px; padding-bottom: 20px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h3 class="mbr-section-title display-2">
                             <br />
                             Output
-                        </h3>
-                        <small class="mbr-section-subtitle"></small>
-                    </div>
-                </div>
-            </div>
-        </section>
+                        </h3> <small class="mbr-section-subtitle"></small> </div>
+			</div>
+		</div>
+	</section>
+	<section class="mbr-section article mbr-section__container" id="content1-1h" style="background-color: #571F4E; padding-top: 20px; padding-bottom: 20px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 lead">
+					<!--<p>Output strand box</p>-->
+					<!--CODE ADDITION-->
+					<p> DNA:
+						<textarea name="outputDNA" id="outputDNA" readonly="readonly" class="Output" data-resizable="true"></textarea> mRNA:
+						<textarea name="outputmRNA" id="outputmRNA" readonly="readonly" class="Output" data-resizable="true"></textarea> Amino Acids:
+						<textarea name="outputProtein" id="outputProtein" readonly="readonly" class="Output" data-resizable="true"></textarea>
+					</p>
+					<!--CODE ADDITION END-->
+					<p><a href="#content5-18">Go to Top</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="assets/web/assets/jquery/jquery.min.js"></script>
+	<script src="assets/tether/tether.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/smooth-scroll/SmoothScroll.js"></script>
+	<script src="assets/viewportChecker/jquery.viewportchecker.js"></script>
+	<script src="assets/dropdown/js/script.min.js"></script>
+	<script src="assets/touchSwipe/jquery.touchSwipe.min.js"></script>
+	<script src="assets/jarallax/jarallax.js"></script>
+	<script src="assets/social-likes/social-likes.js"></script>
+	<script src="assets/theme/js/script.js"></script>
+	<script src="assets/theme/js/copytext.js"></script>
+	<input name="animation" type="hidden" /> </body>
 
-        <section class="mbr-section article mbr-section__container" id="content1-1h" style="background-color: #571F4E; padding-top: 20px; padding-bottom: 20px;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 lead">
-                        <!--<p>Output strand box</p>-->
-
-                        <!--CODE ADDITION-->
-                        <p>
-                            DNA:
-                            <textarea name="outputDNA" id="outputDNA" readonly="readonly" class="Output" data-resizable="true"></textarea>
-                            mRNA:
-                            <textarea name="outputmRNA" id="outputmRNA" readonly="readonly" class="Output" data-resizable="true"></textarea>
-                            Amino Acids:
-                            <textarea name="outputProtein" id="outputProtein" readonly="readonly" class="Output" data-resizable="true"></textarea>
-                        </p>
-                        <!--CODE ADDITION END-->
-
-                        <p><a href="#content5-18">Go to Top</a></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <script src="assets/web/assets/jquery/jquery.min.js"></script>
-        <script src="assets/tether/tether.min.js"></script>
-        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-        <script src="assets/smooth-scroll/SmoothScroll.js"></script>
-        <script src="assets/viewportChecker/jquery.viewportchecker.js"></script>
-        <script src="assets/dropdown/js/script.min.js"></script>
-        <script src="assets/touchSwipe/jquery.touchSwipe.min.js"></script>
-        <script src="assets/jarallax/jarallax.js"></script>
-        <script src="assets/social-likes/social-likes.js"></script>
-        <script src="assets/theme/js/script.js"></script>
-        <script src="assets/theme/js/copytext.js"></script>
-
-        <input name="animation" type="hidden" />
-    </body>
 </html>
