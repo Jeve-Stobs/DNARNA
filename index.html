@@ -4,9 +4,9 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="shortcut icon" href="assets/images/icon-128x128-25.png" type="image/x-icon" />
+	<link rel="shortcut icon" href="https://www.seekpng.com/png/detail/51-512093_rainbow-circle-target-6-color-icons-png-rgb.png" type="image/x-icon" />
 	<meta name="description" content="" />
-	<title>DNA to mRNA to Amino Acids Converter</title>
+	<title>mDRNA</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;subset=latin" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" />
@@ -61,10 +61,10 @@
 					<script src="js/jquery.js"></script>
 					<center>
 						<form id="strand" class="ng-pristine ng-valid">
-							<input id="DNA" type="radio" name="StrandType" value="DNA" onclick="inputStrandConv('DNA')" checked="" />
-							<label for="DNA"><font class="coa" color="gold">DNA</font></label><font class="coa" color="#571F4E"> OR </font>&nbsp;
-							<input id="mRNA" type="radio" name="StrandType" value="mRNA" onclick="inputStrandConv('mRNA')" />
-							<label for="mRNA"><font class="coa" color="gold">mRNA</font></label>
+							<input id="DNA" type="hidden" name="StrandType" value="DNA" onclick="inputStrandConv('DNA')" checked="" />
+					
+							<input id="mRNA" type="hidden" name="StrandType" value="mRNA" onclick="inputStrandConv('mRNA')" />
+							
 						</form>
 					</center>
 					<!--CODE ADDITION END-->
@@ -128,7 +128,6 @@
 						<textarea name="outputProtein" id="outputProtein" readonly="readonly" class="Output" data-resizable="true"></textarea>
 					</p>
 					<!--CODE ADDITION END-->
-					<p><a href="#content5-18">Go to Top</a></p>
 				</div>
 			</div>
 		</div>
