@@ -1,4 +1,4 @@
-var debug=false; //if(debug==true){console.log();}
+var debug=true; //if(debug==true){console.log();}
 
 function converter(input, StrandType){
     
