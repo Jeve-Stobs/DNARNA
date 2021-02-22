@@ -89,7 +89,31 @@
     background-color: #a07e49 !important;
     border-color: #a07e49 !important;
     opacity: 0.85; }
-
+.btn-primary2 {
+  background-color: #c0a375;
+  border-color: #c0a375;
+  box-shadow: none;
+  color: #fff; }
+  .btn-primary2:hover {
+    color: #fff;
+    background-color: #a07e49;
+    border-color: #a07e49;
+    box-shadow: none; }
+  .btn-primary2:focus, .btn-primary.focus {
+    color: #fff;
+    background-color: #a07e49;
+    border-color: #a07e49; }
+  .btn-primary2:active, .btn-primary.active {
+    color: #fff;
+    background-color: #a07e49;
+    border-color: #a07e49;
+    background-image: none;
+    box-shadow: none; }
+  .btn-primary2.disabled, .btn-primary:disabled {
+    color: #fff !important;
+    background-color: #a07e49 !important;
+    border-color: #a07e49 !important;
+    opacity: 0.85; }
 .btn-secondary {
   background-color: #bfcecb;
   border-color: #bfcecb;
