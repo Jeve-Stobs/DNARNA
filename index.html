@@ -176,6 +176,11 @@
          document.execCommand("copy");
          }
       </script>
+   <script>
+			if ("serviceWorker" in navigator) {
+				navigator.serviceWorker.register("sw.js");
+			}
+		</script>
       <input name="animation" type="hidden" /> 
    </body>
 </html>
